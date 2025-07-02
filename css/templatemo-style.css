@@ -162,7 +162,7 @@ p {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid #99ccff;
+  border-bottom: 1px solid #d38339;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,7 +230,7 @@ p {
 }
 
 .tm-section-title-mb-2 {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .tm-img-right {
@@ -259,7 +259,7 @@ p {
 .grid figure {
   position: relative;
   overflow: hidden;
-  background: #3085a3;
+  background: #d38339;
   text-align: center;
   cursor: pointer;
   margin-left: 10px;
@@ -282,6 +282,8 @@ p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+.section figure 
 
 .grid figure figcaption::before,
 .grid figure figcaption::after {
@@ -405,7 +407,7 @@ figure.effect-duke:hover p {
 .tm-contact-icon-container {
   display: inline-block;
   background-color: white;
-  color: #99ccff;
+  color: #d38339;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -423,7 +425,7 @@ figure.effect-duke:hover p {
   cursor: pointer;
   width: 62px;
   height: 62px;
-  background-color: #99ccff;
+  background-color: #d38339;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -478,12 +480,12 @@ figure.effect-duke:hover p {
 }
 
 .tm-btn-submit:hover {
-  color: #99ccff;
-  border-color: #99ccff;
+  color: #d38339;
+  border-color: #d38339;
 }
 
 .tm-social-icon-container:hover {
-  background-color: #568dc0;
+  background-color: #d38339;
 }
 
 .tm-social-icon-container i {
@@ -495,7 +497,7 @@ figure.effect-duke:hover p {
 }
 
 .tm-copyright-link {
-  color: #99ccff;
+  color: #d38339;
 }
 
 .tm-p-2-section-1 {
@@ -962,4 +964,12 @@ hr {
   #bg_img_32 {
     height: 600px;
   }
+}
+
+
+#gallery img {
+  width: 400px;   
+  height: 250px;     
+  object-fit: cover; 
+  display: block;
 }
