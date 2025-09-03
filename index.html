@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        Ano de Nascimento: <input type="date" id="iano">
+        <p>Sexo:
+            <input type="radio" name="rSex" id="rmasc" checked>
+            <label for="rmasc">Masculino</label>
+            <input type="radio" name="rSex" id="rfem" checked>
+            <label for="rfem">Feminino</label>
+        </p>
+        <input type="button" value="Verificador" onclick="verificar()">
+        <p>Preencha os dados acima para ver o resultado...</p>
+        <div id="dataual"></div>
+    
+    </section>
+    <footer>
+        <p>
+            &copy;Castaldi - Desenvolvimento de Sistemas
+
+        </p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
